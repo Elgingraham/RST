@@ -1,0 +1,18 @@
+.contents {
+  color: rgb(218, 29, 29);
+  text-align: center;
+}
+
+.boxcss {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#password {
+  margin-top: 30px;
+}
+
+body {
+  background-image: url("photo/210-2101051_dark-web-scanning-background-image-for-website-of.jpg");
+}
