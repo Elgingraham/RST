@@ -20,7 +20,7 @@ function psw () {
     document.getElementById('result').innerHTML = 'Bad password'
   } else if (input.value.match(upperCaseLetters)) {
     document.getElementById('result').innerHTML = 'Bad password'
-  } else { 
+  } else {
     document.getElementById('result').innerHTML = 'Please fill in the box'
   }
 }
