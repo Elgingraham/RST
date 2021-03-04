@@ -1,9 +1,9 @@
 document.getElementById('run').addEventListener('click', psw)
 // setting all the varibles
-let input = document.getElementById('password')
-let lowerCaseLetters = /[a-z]/g
-let upperCaseLetters = /[A-Z]/g
-let numbers = /[0-9]/g
+const input = document.getElementById('password')
+const lowerCaseLetters = /[a-z]/g
+const upperCaseLetters = /[A-Z]/g
+const numbers = /[0-9]/g
 // checking all the possibilities
 function psw () {
   if (input.value.match(numbers) && input.value.match(upperCaseLetters) && input.value.match(lowerCaseLetters)) {
@@ -20,6 +20,7 @@ function psw () {
     document.getElementById('result').innerHTML = 'Bad password'
   } else if (input.value.match(upperCaseLetters)) {
     document.getElementById('result').innerHTML = 'Bad password'
-  } else { document.getElementById('result').innerHTML = 'Please fill in the box'
+  } else { 
+    document.getElementById('result').innerHTML = 'Please fill in the box'
   }
 }
